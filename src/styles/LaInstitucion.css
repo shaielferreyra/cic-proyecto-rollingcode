@@ -1,0 +1,97 @@
+/* Estilo general del contenedor principal */
+.institucion-container {
+    background-image: url("https://lh6.googleusercontent.com/proxy/IYOGFBJFO6DXNVG2M65qEQ0ZAOE4YYYgc5Kp2B-nO-78w3OusSOtF41iGFrhQ_j0MQ3PJwqdFF8Td2m1_g5tWfKnW1UAyJ6uyRV04vur5UWAGjmrdlXUYI7Fkz3Xfzw");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+  }
+  
+  /* Contenedor transparente oscuro */
+  .institucion-header {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    color: white;
+    padding: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* Caja que envuelve el contenido dentro del header */
+  .content-box {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Slider */
+  .slider-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Ajustar imágenes del slider */
+  .slider-container img {
+    height:400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Sección de información */
+  .info-section {
+    max-width: 90%;
+    margin: 50px auto;
+  }
+  
+  /* Bloques de información */
+  .info-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .info-block img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Texto de la información */
+  .text-content {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro con transparencia */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Alineación izquierda y derecha de los bloques */
+  .info-block.left {
+    flex-direction: row;
+  }
+  
+  .info-block.right {
+    flex-direction: row-reverse;
+  }
+  
+  /* Encabezados */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Párrafos */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  

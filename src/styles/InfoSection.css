@@ -1,0 +1,7 @@
+.infosection-container {
+    background-color: white !important; /* Evita que el fondo oscuro la afecte */
+    color: black !important; /* Asegura que el texto sea visible */
+    padding: 40px;
+    text-align: center;
+  }
+  

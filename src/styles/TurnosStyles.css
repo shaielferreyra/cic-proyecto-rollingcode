@@ -1,0 +1,91 @@
+.turnos-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .turno-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .turno-card:hover {
+    transform: scale(1.02);
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .reserve-btn {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .reserve-btn:hover {
+    background: #45a049;
+  }
+  
+  .delete-btn {
+    background: #d9534f;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: #c9302c;
+  }
+  
+  .reserved-msg {
+    color: #f4c542;
+    font-weight: bold;
+  }
+  .turnos-container {
+    text-align: center;
+    background: url("https://hospitalangeles.com/assets/img/imgservicios/departamento-de-cardiologia-intervencionista-1.webp") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+  }
+  
+  .turno-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .turno-card input, .turno-card button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .turno-card button {
+    background: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
