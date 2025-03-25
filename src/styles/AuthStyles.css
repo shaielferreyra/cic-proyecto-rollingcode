@@ -1,0 +1,115 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://www.cimahermosillo.com/images/2021/12/29/cardiologia-3.jpeg") no-repeat center center/cover;
+  }
+  
+  .auth-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .auth-box input,
+  .auth-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-box button:hover {
+    background: darkred;
+  }
+  .appointment-container, .admin-appointments-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  select, input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background: darkred;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://www.teknon.es/blog/es/salud-az/radiologia-infatigable-companera-cardiologia-intervencionis.ficheros/1855520-quirofano-hibrido-cardiologia-radiologia-centro-medico-teknon-barcelona.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .auth-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .auth-box a {
+    color: white;
+  }
+  
