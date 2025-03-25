@@ -69,9 +69,10 @@ const NavbarComponent = () => {
           <Modal.Title>Contacto</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
-          <p><strong>Email:</strong> contacto@clinica-cardiologica.com</p>
-          <p><strong>Dirección:</strong> Av. Siempre Viva 742, Buenos Aires</p>
+          <p><strong>Teléfono:</strong> +54 381 578-3030</p>
+          <p><strong>Email:</strong> academy@rollingcodeschool.com</p>
+          <p><strong>Dirección:</strong> General Paz 576, Piso 9, Oficina 2
+          San Miguel de Tucumán</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={() => setShowContacto(false)}>Cerrar</Button>
