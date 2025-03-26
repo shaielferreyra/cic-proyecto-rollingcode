@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../Styles/AuthStyles.css";
+import "../styles/AuthStyles.css";
 
 const Register = () => {
   const [role, setRole] = useState("paciente");
