@@ -1,0 +1,32 @@
+.reservar-turno-container {
+    background: url('https://rosemedicina.com.ar/site/wp-content/uploads/2022/02/cardio-1024x576-1.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .reservar-turno-container button {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reservar-turno-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reservar-turno-container li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
